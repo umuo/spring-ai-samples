@@ -2,6 +2,28 @@
 
 该项目是 Spring AI MCP (Model-Centric Programming) 服务器的示例实现。它演示了如何创建一个服务器，该服务器公开 AI 模型和工具以供其他应用程序使用。
 
+```yml
+spring:
+  # Spring Boot 主配置
+  main:
+    # 关闭启动时的 Spring Boot 横幅（banner）
+    banner-mode: off
+
+  # AI 相关配置
+  ai:
+    # MCP (Model Control Protocol) 服务器配置
+    mcp:
+      server:
+        # MCP 服务器实例名称
+        name: test-tool-mcp-server
+
+        # MCP 服务器版本号
+        version: 0.0.1
+
+        # 服务器类型 - ASYNC 推荐用于响应式/非阻塞应用
+        type: async  # 推荐用于响应式应用
+```
+
 ## 关键技术
 
 *   **Spring Boot:** 用作应用程序的底层框架。

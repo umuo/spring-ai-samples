@@ -1,6 +1,7 @@
-package cn.lacknb.mcp.server.sse.tools;
+package cn.lacknb.server.components.tool;
 
 import org.springframework.ai.tool.annotation.Tool;
+import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,8 +16,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class MathTool {
 
+    /**
+     * 使用 @ToolParam 注解，指定参数的描述
+     * @param a
+     * @param b
+     * @return
+     */
     @Tool(name = "add", description = "求两数之和")
-    public int add(int a, int b) {
+    public int add(@ToolParam(description = "参数a") int a, @ToolParam(description = "参数b") int b) {
         return a + b;
     }
 

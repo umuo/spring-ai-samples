@@ -25,7 +25,7 @@ spring:
         version: 0.0.1
 
         # 服务器类型 - ASYNC 推荐用于响应式/非阻塞应用
-        type: async  # 推荐用于响应式应用
+        type: sync  # 这里配置的同步模式
 
         # SSE (服务器发送事件) 配置:
         # SSE 基础路径 - 默认值为 /sse
@@ -45,5 +45,5 @@ spring:
 
 
 server:
-  port: 9001
+  port: 9002
 # logging.pattern.console=
