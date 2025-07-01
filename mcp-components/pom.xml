@@ -28,6 +28,13 @@
             <artifactId>spring-web</artifactId>
         </dependency>
 
+        <!-- 增加注解支持 -->
+        <dependency>
+            <groupId>com.logaritex.mcp</groupId>
+            <artifactId>spring-ai-mcp-annotations</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -1,4 +1,4 @@
-package cn.lacknb.server.components.prompt;
+package cn.lacknb.server.components.original.prompt;
 
 import io.modelcontextprotocol.server.McpServerFeatures;
 import io.modelcontextprotocol.spec.McpSchema;

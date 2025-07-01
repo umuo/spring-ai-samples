@@ -1,4 +1,4 @@
-package cn.lacknb.server.components.tool;
+package cn.lacknb.server.components.original.tool;
 
 import io.modelcontextprotocol.server.McpServerFeatures;
 import io.modelcontextprotocol.spec.McpSchema;

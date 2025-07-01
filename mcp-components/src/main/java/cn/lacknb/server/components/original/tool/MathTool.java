@@ -1,4 +1,4 @@
-package cn.lacknb.server.components.tool;
+package cn.lacknb.server.components.original.tool;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
