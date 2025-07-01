@@ -10,7 +10,8 @@
   <name>mcp-samples</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>01-mcp-server-sample</module>
+    <module>01-sse-mcp-server-sample</module>
+    <module>02-stdio-mcp-server-sample</module>
   </modules>
 
   <properties>
@@ -26,13 +27,13 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>com.alibaba.cloud.ai</groupId>
-        <artifactId>spring-ai-alibaba-bom</artifactId>
-        <version>${spring-ai-alibaba.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
+<!--      <dependency>-->
+<!--        <groupId>com.alibaba.cloud.ai</groupId>-->
+<!--        <artifactId>spring-ai-alibaba-bom</artifactId>-->
+<!--        <version>${spring-ai-alibaba.version}</version>-->
+<!--        <type>pom</type>-->
+<!--        <scope>import</scope>-->
+<!--      </dependency>-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>

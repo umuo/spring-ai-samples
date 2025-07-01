@@ -1,4 +1,4 @@
-package cn.lacknb.mcp.server.tools;
+package cn.lacknb.mcp.server.sse.tools;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Service;

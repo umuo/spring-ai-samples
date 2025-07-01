@@ -1,4 +1,4 @@
-# 01-mcp-server-sample
+# 01-sse-mcp-server-sample
 
 该项目是 Spring AI MCP (Model-Centric Programming) 服务器的示例实现。它演示了如何创建一个服务器，该服务器公开 AI 模型和工具以供其他应用程序使用。
 

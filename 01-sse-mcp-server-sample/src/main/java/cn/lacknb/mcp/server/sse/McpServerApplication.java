@@ -1,11 +1,10 @@
 package cn.lacknb.mcp.server.sse;
 
-import cn.lacknb.mcp.server.tools.MathTool;
+import cn.lacknb.mcp.server.sse.tools.MathTool;
 import org.springframework.ai.tool.ToolCallback;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.function.FunctionToolCallback;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -21,7 +20,6 @@ import org.springframework.context.annotation.ComponentScan;
  * @date: 2025/6/30 16:08
  **/
 @SpringBootApplication
-@ComponentScan(basePackages = "cn.lacknb.mcp.server")
 public class McpServerApplication {
 
     public static void main(String[] args) {
