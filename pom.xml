@@ -26,7 +26,10 @@
     <flatten-maven-plugin.version>1.3.0</flatten-maven-plugin.version>
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 
-    <maven.compiler.source>17</maven.compiler.source>
+    <!--告诉 Java 编译器（javac）使用哪个版本的语法进行语法检查-->
+    <maven.compiler.source>21</maven.compiler.source>
+    <!--告诉 Java 编译器输出的 .class 文件要兼容哪个 Java 版本的 JVM-->
+    <maven.compiler.target>21</maven.compiler.target>
   </properties>
 
   <dependencyManagement>

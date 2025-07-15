@@ -7,6 +7,7 @@ spring:
       server:
         name: test-tool-mcp-server  # MCP 服务器名称
         version: 0.0.1                      # MCP 服务器版本
+        stdio: true                        # 是否启用 STDIO 传输
 
 # NOTE: You must disable the banner and the console logging
 # to allow the STDIO transport to work !!!
