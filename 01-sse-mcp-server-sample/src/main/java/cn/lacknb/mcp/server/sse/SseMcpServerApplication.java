@@ -15,10 +15,10 @@ import org.springframework.context.annotation.ComponentScan;
  **/
 @SpringBootApplication
 @ComponentScan(basePackages = "cn.lacknb.server.components")
-public class McpServerApplication {
+public class SseMcpServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(McpServerApplication.class, args);
+        SpringApplication.run(SseMcpServerApplication.class, args);
     }
 
 }
