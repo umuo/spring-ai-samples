@@ -11,3 +11,8 @@ spring:
 
 # NOTE: You must disable the banner and the console logging
 # to allow the STDIO transport to work !!!
+
+logging:
+  level:
+    root: off
+    org.springframework: off
